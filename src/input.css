@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 500;
+  line-height: 150%;
+  src: local("Satoshi"), url("../fonts/satoshi_complete/Satoshi-Medium.otf");
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  font-weight: 600;
+  line-height: 100%;
+  src:
+    local("Inter Tight"), url("../fonts/inter_tight/InterTight-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  font-weight: 500;
+  line-height: 28px;
+  src:
+    local("Clash Grotesk"),
+    url("../fonts/clash_grotesk/ClashGrotesk-Medium.otf");
+}
+
+html,
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
+h1 {
+  font-family: "Inter Tight";
+}
+
+.satoshi {
+  font-family: "Satoshi", sans-serif;
+}
+
+.inter {
+  font-family: "Inter Tight";
+}
+
+.clash {
+  font-family: "Clash Grotesk";
+}
