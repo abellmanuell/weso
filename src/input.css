@@ -43,3 +43,8 @@ h1 {
 .clash {
   font-family: "Clash Grotesk";
 }
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
